@@ -2414,6 +2414,9 @@ gdjs.copyArray(runtimeScene.getObjects("Pause_Button"), gdjs.TUTORIALCode.GDPaus
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.systemInfo.isMobile();
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.TUTORIALCode.GDPause_9595ButtonObjects3.length;i<l;++i) {
     if ( gdjs.TUTORIALCode.GDPause_9595ButtonObjects3[i].getBehavior("ButtonFSM").IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
         isConditionTrue_0 = true;
@@ -2452,6 +2455,7 @@ for (var i = 0, k = 0, l = gdjs.TUTORIALCode.GDCONTROLSObjects3.length;i<l;++i) 
     }
 }
 gdjs.TUTORIALCode.GDCONTROLSObjects3.length = k;
+}
 }
 }
 }
@@ -4883,7 +4887,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.TUTORIALCode.userFunc0x5843790 = function GDJSInlineCode(runtimeScene) {
+};gdjs.TUTORIALCode.userFunc0xc3f768 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 if (window.ethereum) {
     window.ethereum.on("accountsChanged", function(accounts) {
@@ -4903,7 +4907,7 @@ gdjs.TUTORIALCode.eventsList18 = function(runtimeScene) {
 {
 
 
-gdjs.TUTORIALCode.userFunc0x5843790(runtimeScene);
+gdjs.TUTORIALCode.userFunc0xc3f768(runtimeScene);
 
 }
 
@@ -4940,7 +4944,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.05
 }
 
 
-};gdjs.TUTORIALCode.userFunc0x5998e28 = function GDJSInlineCode(runtimeScene) {
+};gdjs.TUTORIALCode.userFunc0xbd5b48 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 if (window.ethereum) {
     window.ethereum.request({ method: 'wallet_revokePermissions', params: [{ eth_accounts: {} }] })
@@ -4959,7 +4963,7 @@ gdjs.TUTORIALCode.eventsList20 = function(runtimeScene) {
 {
 
 
-gdjs.TUTORIALCode.userFunc0x5998e28(runtimeScene);
+gdjs.TUTORIALCode.userFunc0xbd5b48(runtimeScene);
 
 }
 
@@ -9270,7 +9274,7 @@ for(var i = 0, len = gdjs.TUTORIALCode.GDRestart_9595Button_9595SecondaryObjects
 }{gdjs.evtTools.camera.setLayerTimeScale(runtimeScene, "SCORE", 1);
 }{gdjs.evtTools.runtimeScene.unpauseTimer(runtimeScene, "SceneTimer");
 }{for(var i = 0, len = gdjs.TUTORIALCode.GDResume_9595ButtonObjects7.length ;i < len;++i) {
-    gdjs.TUTORIALCode.GDResume_9595ButtonObjects7[i].getBehavior("Animation").setAnimationName("Idle");
+    gdjs.TUTORIALCode.GDResume_9595ButtonObjects7[i].getBehavior("Animation").setAnimationName("IDLE");
 }
 }{for(var i = 0, len = gdjs.TUTORIALCode.GDPause_9595ButtonObjects7.length ;i < len;++i) {
     gdjs.TUTORIALCode.GDPause_9595ButtonObjects7[i].getBehavior("Animation").setAnimationName("Idle");
@@ -9524,7 +9528,7 @@ for(var i = 0, len = gdjs.TUTORIALCode.GDRestart_9595Button_9595SecondaryObjects
 }{gdjs.evtTools.camera.setLayerTimeScale(runtimeScene, "SCORE", 1);
 }{gdjs.evtTools.runtimeScene.unpauseTimer(runtimeScene, "SceneTimer");
 }{for(var i = 0, len = gdjs.TUTORIALCode.GDResume_9595ButtonObjects7.length ;i < len;++i) {
-    gdjs.TUTORIALCode.GDResume_9595ButtonObjects7[i].getBehavior("Animation").setAnimationName("Idle");
+    gdjs.TUTORIALCode.GDResume_9595ButtonObjects7[i].getBehavior("Animation").setAnimationName("IDLE");
 }
 }{for(var i = 0, len = gdjs.TUTORIALCode.GDPause_9595ButtonObjects7.length ;i < len;++i) {
     gdjs.TUTORIALCode.GDPause_9595ButtonObjects7[i].getBehavior("Animation").setAnimationName("IDLE_Mobile");
@@ -9967,7 +9971,7 @@ if (isConditionTrue_0) {
 /* Reuse gdjs.TUTORIALCode.GDResume_9595ButtonObjects3 */
 {gdjs.evtTools.sound.playSound(runtimeScene, "notification-sound-269266.mp3", false, 100, 1);
 }{for(var i = 0, len = gdjs.TUTORIALCode.GDResume_9595ButtonObjects3.length ;i < len;++i) {
-    gdjs.TUTORIALCode.GDResume_9595ButtonObjects3[i].getBehavior("Animation").setAnimationName("Pressed");
+    gdjs.TUTORIALCode.GDResume_9595ButtonObjects3[i].getBehavior("Animation").setAnimationName("PRESSED");
 }
 }
 { //Subevents

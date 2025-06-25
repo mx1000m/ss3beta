@@ -50,7 +50,7 @@ gdjs.Loading_32Zero_32PhaseCode.GDWindObjects2= [];
 gdjs.Loading_32Zero_32PhaseCode.GDWindObjects3= [];
 
 
-gdjs.Loading_32Zero_32PhaseCode.userFunc0x2933178 = function GDJSInlineCode(runtimeScene) {
+gdjs.Loading_32Zero_32PhaseCode.userFunc0xc376f8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function() {
   var link = document.querySelector("link[rel~='icon']");
@@ -71,7 +71,7 @@ gdjs.Loading_32Zero_32PhaseCode.eventsList0 = function(runtimeScene) {
 {
 
 
-gdjs.Loading_32Zero_32PhaseCode.userFunc0x2933178(runtimeScene);
+gdjs.Loading_32Zero_32PhaseCode.userFunc0xc376f8(runtimeScene);
 
 }
 

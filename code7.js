@@ -2739,6 +2739,9 @@ gdjs.copyArray(runtimeScene.getObjects("Pause_Button"), gdjs.LEVEL_321Code.GDPau
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.systemInfo.isMobile();
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.LEVEL_321Code.GDPause_9595ButtonObjects3.length;i<l;++i) {
     if ( gdjs.LEVEL_321Code.GDPause_9595ButtonObjects3[i].getBehavior("ButtonFSM").IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
         isConditionTrue_0 = true;
@@ -2777,6 +2780,7 @@ for (var i = 0, k = 0, l = gdjs.LEVEL_321Code.GDCONTROLSObjects3.length;i<l;++i)
     }
 }
 gdjs.LEVEL_321Code.GDCONTROLSObjects3.length = k;
+}
 }
 }
 }
@@ -5190,7 +5194,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.LEVEL_321Code.userFunc0x1c82bf8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.LEVEL_321Code.userFunc0x54238b0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 if (window.ethereum) {
     window.ethereum.on("accountsChanged", function(accounts) {
@@ -5210,7 +5214,7 @@ gdjs.LEVEL_321Code.eventsList19 = function(runtimeScene) {
 {
 
 
-gdjs.LEVEL_321Code.userFunc0x1c82bf8(runtimeScene);
+gdjs.LEVEL_321Code.userFunc0x54238b0(runtimeScene);
 
 }
 
@@ -5247,7 +5251,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.05
 }
 
 
-};gdjs.LEVEL_321Code.userFunc0x58bd0a8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.LEVEL_321Code.userFunc0x5378e00 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 if (window.ethereum) {
     window.ethereum.request({ method: 'wallet_revokePermissions', params: [{ eth_accounts: {} }] })
@@ -5266,7 +5270,7 @@ gdjs.LEVEL_321Code.eventsList21 = function(runtimeScene) {
 {
 
 
-gdjs.LEVEL_321Code.userFunc0x58bd0a8(runtimeScene);
+gdjs.LEVEL_321Code.userFunc0x5378e00(runtimeScene);
 
 }
 
@@ -9577,7 +9581,7 @@ for(var i = 0, len = gdjs.LEVEL_321Code.GDRestart_9595Button_9595SecondaryObject
 }{gdjs.evtTools.camera.setLayerTimeScale(runtimeScene, "SCORE", 1);
 }{gdjs.evtTools.runtimeScene.unpauseTimer(runtimeScene, "SceneTimer");
 }{for(var i = 0, len = gdjs.LEVEL_321Code.GDResume_9595ButtonObjects7.length ;i < len;++i) {
-    gdjs.LEVEL_321Code.GDResume_9595ButtonObjects7[i].getBehavior("Animation").setAnimationName("Idle");
+    gdjs.LEVEL_321Code.GDResume_9595ButtonObjects7[i].getBehavior("Animation").setAnimationName("IDLE");
 }
 }{for(var i = 0, len = gdjs.LEVEL_321Code.GDPause_9595ButtonObjects7.length ;i < len;++i) {
     gdjs.LEVEL_321Code.GDPause_9595ButtonObjects7[i].getBehavior("Animation").setAnimationName("Idle");
@@ -9831,7 +9835,7 @@ for(var i = 0, len = gdjs.LEVEL_321Code.GDRestart_9595Button_9595SecondaryObject
 }{gdjs.evtTools.camera.setLayerTimeScale(runtimeScene, "SCORE", 1);
 }{gdjs.evtTools.runtimeScene.unpauseTimer(runtimeScene, "SceneTimer");
 }{for(var i = 0, len = gdjs.LEVEL_321Code.GDResume_9595ButtonObjects7.length ;i < len;++i) {
-    gdjs.LEVEL_321Code.GDResume_9595ButtonObjects7[i].getBehavior("Animation").setAnimationName("Idle");
+    gdjs.LEVEL_321Code.GDResume_9595ButtonObjects7[i].getBehavior("Animation").setAnimationName("IDLE");
 }
 }{for(var i = 0, len = gdjs.LEVEL_321Code.GDPause_9595ButtonObjects7.length ;i < len;++i) {
     gdjs.LEVEL_321Code.GDPause_9595ButtonObjects7[i].getBehavior("Animation").setAnimationName("ILDE_Mobile");
@@ -10274,7 +10278,7 @@ if (isConditionTrue_0) {
 /* Reuse gdjs.LEVEL_321Code.GDResume_9595ButtonObjects3 */
 {gdjs.evtTools.sound.playSound(runtimeScene, "notification-sound-269266.mp3", false, 100, 1);
 }{for(var i = 0, len = gdjs.LEVEL_321Code.GDResume_9595ButtonObjects3.length ;i < len;++i) {
-    gdjs.LEVEL_321Code.GDResume_9595ButtonObjects3[i].getBehavior("Animation").setAnimationName("Pressed");
+    gdjs.LEVEL_321Code.GDResume_9595ButtonObjects3[i].getBehavior("Animation").setAnimationName("PRESSED");
 }
 }
 { //Subevents
@@ -35595,7 +35599,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.LEVEL_321Code.userFunc0x5455458 = function GDJSInlineCode(runtimeScene) {
+};gdjs.LEVEL_321Code.userFunc0x2924170 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function(runtimeScene) {
   console.log("📤 Starting score and character submission...");
@@ -35684,7 +35688,7 @@ gdjs.LEVEL_321Code.eventsList265 = function(runtimeScene, asyncObjectsList) {
 {
 
 
-gdjs.LEVEL_321Code.userFunc0x5455458(runtimeScene);
+gdjs.LEVEL_321Code.userFunc0x2924170(runtimeScene);
 
 }
 

@@ -1040,7 +1040,7 @@ gdjs.Level_32SelectionCode.eventsList9(runtimeScene);
 }
 
 
-};gdjs.Level_32SelectionCode.userFunc0x5350ff8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Level_32SelectionCode.userFunc0x5363898 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 if (window.ethereum) {
     window.ethereum.on("accountsChanged", function(accounts) {
@@ -1060,7 +1060,7 @@ gdjs.Level_32SelectionCode.eventsList11 = function(runtimeScene) {
 {
 
 
-gdjs.Level_32SelectionCode.userFunc0x5350ff8(runtimeScene);
+gdjs.Level_32SelectionCode.userFunc0x5363898(runtimeScene);
 
 }
 
@@ -1097,7 +1097,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.05
 }
 
 
-};gdjs.Level_32SelectionCode.userFunc0x1c7e1f0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Level_32SelectionCode.userFunc0xc3e8f0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 if (window.ethereum) {
     window.ethereum.request({ method: 'wallet_revokePermissions', params: [{ eth_accounts: {} }] })
@@ -1116,7 +1116,7 @@ gdjs.Level_32SelectionCode.eventsList13 = function(runtimeScene) {
 {
 
 
-gdjs.Level_32SelectionCode.userFunc0x1c7e1f0(runtimeScene);
+gdjs.Level_32SelectionCode.userFunc0xc3e8f0(runtimeScene);
 
 }
 
@@ -6550,7 +6550,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.Level_32SelectionCode.userFunc0xa75f28 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Level_32SelectionCode.userFunc0xa85ee8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function(runtimeScene) {
   console.log("🧠 Loading all level scores, times, and unlocked levels...");
@@ -6680,7 +6680,7 @@ gdjs.Level_32SelectionCode.eventsList93 = function(runtimeScene) {
 {
 
 
-gdjs.Level_32SelectionCode.userFunc0xa75f28(runtimeScene);
+gdjs.Level_32SelectionCode.userFunc0xa85ee8(runtimeScene);
 
 }
 

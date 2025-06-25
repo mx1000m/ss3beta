@@ -420,7 +420,7 @@ gdjs.Connect_32WalletCode.GDWindObjects10= [];
 gdjs.Connect_32WalletCode.GDWindObjects11= [];
 
 
-gdjs.Connect_32WalletCode.userFunc0xca1920 = function GDJSInlineCode(runtimeScene) {
+gdjs.Connect_32WalletCode.userFunc0xcf3c48 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function() {
   var link = document.querySelector("link[rel~='icon']");
@@ -441,7 +441,7 @@ gdjs.Connect_32WalletCode.eventsList0 = function(runtimeScene) {
 {
 
 
-gdjs.Connect_32WalletCode.userFunc0xca1920(runtimeScene);
+gdjs.Connect_32WalletCode.userFunc0xcf3c48(runtimeScene);
 
 }
 
@@ -663,7 +663,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1)
 }
 
 
-};gdjs.Connect_32WalletCode.userFunc0x2699d80 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Connect_32WalletCode.userFunc0x57f3a90 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // Smart wallet connection that detects in-app browsers
 function connectWallet() {
@@ -1004,7 +1004,7 @@ gdjs.Connect_32WalletCode.eventsList7 = function(runtimeScene, asyncObjectsList)
 {
 
 
-gdjs.Connect_32WalletCode.userFunc0x2699d80(runtimeScene);
+gdjs.Connect_32WalletCode.userFunc0x57f3a90(runtimeScene);
 
 }
 
@@ -1664,7 +1664,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5)
 }
 
 
-};gdjs.Connect_32WalletCode.userFunc0x580f870 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Connect_32WalletCode.userFunc0x1c827b8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
     // Most basic MetaMask connection possible
     if (window.ethereum) {
@@ -1694,7 +1694,7 @@ gdjs.Connect_32WalletCode.eventsList25 = function(runtimeScene, asyncObjectsList
 {
 
 
-gdjs.Connect_32WalletCode.userFunc0x580f870(runtimeScene);
+gdjs.Connect_32WalletCode.userFunc0x1c827b8(runtimeScene);
 
 }
 
@@ -2077,7 +2077,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.Connect_32WalletCode.userFunc0x57eaeb0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Connect_32WalletCode.userFunc0x59081b8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 window.open("https://x.com/mx1000m", "_blank");
 
@@ -2087,7 +2087,7 @@ gdjs.Connect_32WalletCode.eventsList35 = function(runtimeScene) {
 {
 
 
-gdjs.Connect_32WalletCode.userFunc0x57eaeb0(runtimeScene);
+gdjs.Connect_32WalletCode.userFunc0x59081b8(runtimeScene);
 
 }
 

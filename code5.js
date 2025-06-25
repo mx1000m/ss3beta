@@ -912,7 +912,7 @@ gdjs.LeaderBoardCode.eventsList3(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.LeaderBoardCode.userFunc0x588e008 = function GDJSInlineCode(runtimeScene) {
+};gdjs.LeaderBoardCode.userFunc0x54d3a28 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 if (window.ethereum) {
     window.ethereum.on("accountsChanged", function(accounts) {
@@ -932,7 +932,7 @@ gdjs.LeaderBoardCode.eventsList5 = function(runtimeScene) {
 {
 
 
-gdjs.LeaderBoardCode.userFunc0x588e008(runtimeScene);
+gdjs.LeaderBoardCode.userFunc0x54d3a28(runtimeScene);
 
 }
 
@@ -969,7 +969,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.05
 }
 
 
-};gdjs.LeaderBoardCode.userFunc0x53f5e38 = function GDJSInlineCode(runtimeScene) {
+};gdjs.LeaderBoardCode.userFunc0x5869448 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 if (window.ethereum) {
     window.ethereum.request({ method: 'wallet_revokePermissions', params: [{ eth_accounts: {} }] })
@@ -988,7 +988,7 @@ gdjs.LeaderBoardCode.eventsList7 = function(runtimeScene) {
 {
 
 
-gdjs.LeaderBoardCode.userFunc0x53f5e38(runtimeScene);
+gdjs.LeaderBoardCode.userFunc0x5869448(runtimeScene);
 
 }
 
@@ -9370,7 +9370,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.LeaderBoardCode.userFunc0x1c79768 = function GDJSInlineCode(runtimeScene) {
+};gdjs.LeaderBoardCode.userFunc0x1c79770 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function(runtimeScene) {
   console.log("📊 Fetching leaderboard data for all levels and overall...");
@@ -9633,7 +9633,7 @@ gdjs.LeaderBoardCode.eventsList65 = function(runtimeScene) {
 {
 
 
-gdjs.LeaderBoardCode.userFunc0x1c79768(runtimeScene);
+gdjs.LeaderBoardCode.userFunc0x1c79770(runtimeScene);
 
 }
 
@@ -15018,7 +15018,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.LeaderBoardCode.userFunc0xad21f8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.LeaderBoardCode.userFunc0xa28bb8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function(runtimeScene) {
   console.log("📡 Fetching Builder Score from Talent Protocol...");
@@ -15079,7 +15079,7 @@ gdjs.LeaderBoardCode.eventsList120 = function(runtimeScene) {
 {
 
 
-gdjs.LeaderBoardCode.userFunc0xad21f8(runtimeScene);
+gdjs.LeaderBoardCode.userFunc0xa28bb8(runtimeScene);
 
 }
 

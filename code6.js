@@ -4883,7 +4883,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.TUTORIALCode.userFunc0x1c84450 = function GDJSInlineCode(runtimeScene) {
+};gdjs.TUTORIALCode.userFunc0x5843790 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 if (window.ethereum) {
     window.ethereum.on("accountsChanged", function(accounts) {
@@ -4903,7 +4903,7 @@ gdjs.TUTORIALCode.eventsList18 = function(runtimeScene) {
 {
 
 
-gdjs.TUTORIALCode.userFunc0x1c84450(runtimeScene);
+gdjs.TUTORIALCode.userFunc0x5843790(runtimeScene);
 
 }
 
@@ -4940,7 +4940,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.05
 }
 
 
-};gdjs.TUTORIALCode.userFunc0xcf90e0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.TUTORIALCode.userFunc0x5998e28 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 if (window.ethereum) {
     window.ethereum.request({ method: 'wallet_revokePermissions', params: [{ eth_accounts: {} }] })
@@ -4959,7 +4959,7 @@ gdjs.TUTORIALCode.eventsList20 = function(runtimeScene) {
 {
 
 
-gdjs.TUTORIALCode.userFunc0xcf90e0(runtimeScene);
+gdjs.TUTORIALCode.userFunc0x5998e28(runtimeScene);
 
 }
 

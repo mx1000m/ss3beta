@@ -5190,7 +5190,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.LEVEL_321Code.userFunc0x54c99f0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.LEVEL_321Code.userFunc0x1c82bf8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 if (window.ethereum) {
     window.ethereum.on("accountsChanged", function(accounts) {
@@ -5210,7 +5210,7 @@ gdjs.LEVEL_321Code.eventsList19 = function(runtimeScene) {
 {
 
 
-gdjs.LEVEL_321Code.userFunc0x54c99f0(runtimeScene);
+gdjs.LEVEL_321Code.userFunc0x1c82bf8(runtimeScene);
 
 }
 
@@ -5247,7 +5247,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.05
 }
 
 
-};gdjs.LEVEL_321Code.userFunc0x1fe01d8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.LEVEL_321Code.userFunc0x58bd0a8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 if (window.ethereum) {
     window.ethereum.request({ method: 'wallet_revokePermissions', params: [{ eth_accounts: {} }] })
@@ -5266,7 +5266,7 @@ gdjs.LEVEL_321Code.eventsList21 = function(runtimeScene) {
 {
 
 
-gdjs.LEVEL_321Code.userFunc0x1fe01d8(runtimeScene);
+gdjs.LEVEL_321Code.userFunc0x58bd0a8(runtimeScene);
 
 }
 
@@ -35595,7 +35595,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.LEVEL_321Code.userFunc0x2842d08 = function GDJSInlineCode(runtimeScene) {
+};gdjs.LEVEL_321Code.userFunc0x5455458 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function(runtimeScene) {
   console.log("📤 Starting score and character submission...");
@@ -35684,7 +35684,7 @@ gdjs.LEVEL_321Code.eventsList265 = function(runtimeScene, asyncObjectsList) {
 {
 
 
-gdjs.LEVEL_321Code.userFunc0x2842d08(runtimeScene);
+gdjs.LEVEL_321Code.userFunc0x5455458(runtimeScene);
 
 }
 
@@ -49298,12 +49298,6 @@ if (isConditionTrue_0) {
 {
 
 
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
-if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(4).setString("Base_God");
-}}
 
 }
 

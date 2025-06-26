@@ -420,7 +420,7 @@ gdjs.Connect_32WalletCode.GDWindObjects10= [];
 gdjs.Connect_32WalletCode.GDWindObjects11= [];
 
 
-gdjs.Connect_32WalletCode.userFunc0x57f48c0 = function GDJSInlineCode(runtimeScene) {
+gdjs.Connect_32WalletCode.userFunc0x8aaa30 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function() {
   var link = document.querySelector("link[rel~='icon']");
@@ -441,7 +441,7 @@ gdjs.Connect_32WalletCode.eventsList0 = function(runtimeScene) {
 {
 
 
-gdjs.Connect_32WalletCode.userFunc0x57f48c0(runtimeScene);
+gdjs.Connect_32WalletCode.userFunc0x8aaa30(runtimeScene);
 
 }
 
@@ -616,7 +616,7 @@ gdjs.copyArray(runtimeScene.getObjects("Connect_Wallet_Button"), gdjs.Connect_32
 }
 
 
-};gdjs.Connect_32WalletCode.asyncCallback96051532 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Connect_32WalletCode.asyncCallback96013828 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Connect_32WalletCode.localVariables);
 {gdjs.evtTools.camera.setCameraY(runtimeScene, 360, "", 0);
 }gdjs.Connect_32WalletCode.localVariables.length = 0;
@@ -631,14 +631,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Connect_32WalletCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Connect_32WalletCode.asyncCallback96051532(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Connect_32WalletCode.asyncCallback96013828(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Connect_32WalletCode.asyncCallback96051156 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Connect_32WalletCode.asyncCallback96013452 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Connect_32WalletCode.localVariables);
 {gdjs.evtTools.camera.setCameraY(runtimeScene, 361, "", 0);
 }
@@ -656,14 +656,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Connect_32WalletCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Connect_32WalletCode.asyncCallback96051156(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Connect_32WalletCode.asyncCallback96013452(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Connect_32WalletCode.userFunc0x541ce78 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Connect_32WalletCode.userFunc0x2a8d4f8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // Smart wallet connection that detects in-app browsers
 function connectWallet() {
@@ -1004,7 +1004,7 @@ gdjs.Connect_32WalletCode.eventsList7 = function(runtimeScene, asyncObjectsList)
 {
 
 
-gdjs.Connect_32WalletCode.userFunc0x541ce78(runtimeScene);
+gdjs.Connect_32WalletCode.userFunc0x2a8d4f8(runtimeScene);
 
 }
 
@@ -1048,7 +1048,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.systemInfo.isMobile();
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(96053796);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(96016092);
 }
 }
 if (isConditionTrue_0) {
@@ -1060,7 +1060,7 @@ gdjs.Connect_32WalletCode.eventsList7(runtimeScene, asyncObjectsList);} //End of
 }
 
 
-};gdjs.Connect_32WalletCode.asyncCallback96049652 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Connect_32WalletCode.asyncCallback96011948 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Connect_32WalletCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Connect_Wallet_Button"), gdjs.Connect_32WalletCode.GDConnect_9595Wallet_9595ButtonObjects2);
 
@@ -1082,7 +1082,7 @@ gdjs.Connect_32WalletCode.eventsList9 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Connect_32WalletCode.localVariables);
 for (const obj of gdjs.Connect_32WalletCode.GDConnect_9595Wallet_9595ButtonObjects1) asyncObjectsList.addObject("Connect_Wallet_Button", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Connect_32WalletCode.asyncCallback96049652(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Connect_32WalletCode.asyncCallback96011948(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -1110,7 +1110,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.systemInfo.isMobile();
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(96048316);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(96010612);
 }
 }
 }
@@ -1265,7 +1265,7 @@ gdjs.copyArray(runtimeScene.getObjects("Connect_Wallet_Button"), gdjs.Connect_32
 }
 
 
-};gdjs.Connect_32WalletCode.asyncCallback96048388 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Connect_32WalletCode.asyncCallback95994468 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Connect_32WalletCode.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(1).setBoolean(true);
 }gdjs.Connect_32WalletCode.localVariables.length = 0;
@@ -1280,14 +1280,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Connect_32WalletCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.Connect_32WalletCode.asyncCallback96048388(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.Connect_32WalletCode.asyncCallback95994468(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Connect_32WalletCode.asyncCallback95978340 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Connect_32WalletCode.asyncCallback96003660 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Connect_32WalletCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Connect_Text"), gdjs.Connect_32WalletCode.GDConnect_9595TextObjects10);
 
@@ -1313,14 +1313,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Connect_32WalletCode.localVariables);
 for (const obj of gdjs.Connect_32WalletCode.GDConnect_9595TextObjects9) asyncObjectsList.addObject("Connect_Text", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Connect_32WalletCode.asyncCallback95978340(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Connect_32WalletCode.asyncCallback96003660(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Connect_32WalletCode.asyncCallback95979812 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Connect_32WalletCode.asyncCallback95908708 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Connect_32WalletCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Connect_Text"), gdjs.Connect_32WalletCode.GDConnect_9595TextObjects9);
 
@@ -1343,14 +1343,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Connect_32WalletCode.localVariables);
 for (const obj of gdjs.Connect_32WalletCode.GDConnect_9595TextObjects8) asyncObjectsList.addObject("Connect_Text", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Connect_32WalletCode.asyncCallback95979812(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Connect_32WalletCode.asyncCallback95908708(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Connect_32WalletCode.asyncCallback95978788 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Connect_32WalletCode.asyncCallback95943668 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Connect_32WalletCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Connect_Text"), gdjs.Connect_32WalletCode.GDConnect_9595TextObjects8);
 
@@ -1373,14 +1373,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Connect_32WalletCode.localVariables);
 for (const obj of gdjs.Connect_32WalletCode.GDConnect_9595TextObjects7) asyncObjectsList.addObject("Connect_Text", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Connect_32WalletCode.asyncCallback95978788(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Connect_32WalletCode.asyncCallback95943668(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Connect_32WalletCode.asyncCallback95979564 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Connect_32WalletCode.asyncCallback95943596 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Connect_32WalletCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Connect_Text"), gdjs.Connect_32WalletCode.GDConnect_9595TextObjects7);
 
@@ -1403,14 +1403,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Connect_32WalletCode.localVariables);
 for (const obj of gdjs.Connect_32WalletCode.GDConnect_9595TextObjects6) asyncObjectsList.addObject("Connect_Text", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Connect_32WalletCode.asyncCallback95979564(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Connect_32WalletCode.asyncCallback95943596(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Connect_32WalletCode.asyncCallback95980412 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Connect_32WalletCode.asyncCallback95942348 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Connect_32WalletCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("Connect_Text"), gdjs.Connect_32WalletCode.GDConnect_9595TextObjects6);
 {for(var i = 0, len = gdjs.Connect_32WalletCode.GDConnect_9595TextObjects6.length ;i < len;++i) {
@@ -1430,7 +1430,7 @@ gdjs.Connect_32WalletCode.eventsList19 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Connect_32WalletCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Connect_32WalletCode.asyncCallback95980412(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Connect_32WalletCode.asyncCallback95942348(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -1595,7 +1595,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Connect_32WalletCode.asyncCallback96032452 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Connect_32WalletCode.asyncCallback95993716 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Connect_32WalletCode.localVariables);
 {gdjs.evtTools.camera.setCameraY(runtimeScene, 360, "", 0);
 }gdjs.Connect_32WalletCode.localVariables.length = 0;
@@ -1610,14 +1610,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Connect_32WalletCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Connect_32WalletCode.asyncCallback96032452(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Connect_32WalletCode.asyncCallback95993716(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Connect_32WalletCode.asyncCallback96028372 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Connect_32WalletCode.asyncCallback95990556 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Connect_32WalletCode.localVariables);
 {gdjs.evtTools.camera.setCameraY(runtimeScene, 361, "", 0);
 }
@@ -1635,14 +1635,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Connect_32WalletCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Connect_32WalletCode.asyncCallback96028372(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Connect_32WalletCode.asyncCallback95990556(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Connect_32WalletCode.asyncCallback96043028 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Connect_32WalletCode.asyncCallback95960620 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Connect_32WalletCode.localVariables);
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "1WelcometoSS.wav", 2, false, 100, 1);
 }gdjs.Connect_32WalletCode.localVariables.length = 0;
@@ -1657,14 +1657,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Connect_32WalletCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Connect_32WalletCode.asyncCallback96043028(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Connect_32WalletCode.asyncCallback95960620(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Connect_32WalletCode.userFunc0xbd6ff8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Connect_32WalletCode.userFunc0x265c580 = function GDJSInlineCode(runtimeScene) {
 "use strict";
     // Most basic MetaMask connection possible
     if (window.ethereum) {
@@ -1694,7 +1694,7 @@ gdjs.Connect_32WalletCode.eventsList25 = function(runtimeScene, asyncObjectsList
 {
 
 
-gdjs.Connect_32WalletCode.userFunc0xbd6ff8(runtimeScene);
+gdjs.Connect_32WalletCode.userFunc0x265c580(runtimeScene);
 
 }
 
@@ -1741,7 +1741,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.systemInfo.isMobile());
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(95998404);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(95997780);
 }
 }
 if (isConditionTrue_0) {
@@ -1753,7 +1753,7 @@ gdjs.Connect_32WalletCode.eventsList25(runtimeScene, asyncObjectsList);} //End o
 }
 
 
-};gdjs.Connect_32WalletCode.asyncCallback96030860 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Connect_32WalletCode.asyncCallback95997972 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Connect_32WalletCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Connect_Wallet_Button"), gdjs.Connect_32WalletCode.GDConnect_9595Wallet_9595ButtonObjects3);
 
@@ -1775,7 +1775,7 @@ gdjs.Connect_32WalletCode.eventsList27 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Connect_32WalletCode.localVariables);
 for (const obj of gdjs.Connect_32WalletCode.GDConnect_9595Wallet_9595ButtonObjects2) asyncObjectsList.addObject("Connect_Wallet_Button", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Connect_32WalletCode.asyncCallback96030860(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Connect_32WalletCode.asyncCallback95997972(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -1803,7 +1803,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.systemInfo.isMobile());
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(96035564);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(95997620);
 }
 }
 }
@@ -1823,7 +1823,7 @@ gdjs.Connect_32WalletCode.eventsList27(runtimeScene);} //End of subevents
 
 };gdjs.Connect_32WalletCode.eventsList29 = function(runtimeScene) {
 
-};gdjs.Connect_32WalletCode.asyncCallback96059396 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Connect_32WalletCode.asyncCallback95988148 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Connect_32WalletCode.localVariables);
 {runtimeScene.getGame().getVariables().getFromIndex(26).setString("Character Selection");
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Loading", false);
@@ -1838,14 +1838,14 @@ gdjs.Connect_32WalletCode.eventsList30 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Connect_32WalletCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Connect_32WalletCode.asyncCallback96059396(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Connect_32WalletCode.asyncCallback95988148(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Connect_32WalletCode.asyncCallback96057836 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Connect_32WalletCode.asyncCallback96019796 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Connect_32WalletCode.localVariables);
 {runtimeScene.getGame().getVariables().getFromIndex(26).setString("Character Selection");
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Loading", false);
@@ -1860,7 +1860,7 @@ gdjs.Connect_32WalletCode.eventsList31 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Connect_32WalletCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Connect_32WalletCode.asyncCallback96057836(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Connect_32WalletCode.asyncCallback96019796(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -2077,7 +2077,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.Connect_32WalletCode.userFunc0x5422700 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Connect_32WalletCode.userFunc0x592a488 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 window.open("https://x.com/mx1000m", "_blank");
 
@@ -2087,7 +2087,7 @@ gdjs.Connect_32WalletCode.eventsList35 = function(runtimeScene) {
 {
 
 
-gdjs.Connect_32WalletCode.userFunc0x5422700(runtimeScene);
+gdjs.Connect_32WalletCode.userFunc0x592a488(runtimeScene);
 
 }
 
@@ -2267,7 +2267,7 @@ for (var i = 0, k = 0, l = gdjs.Connect_32WalletCode.GDFooter_9595BackgroundObje
 gdjs.Connect_32WalletCode.GDFooter_9595BackgroundObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(96018004);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(96044284);
 }
 }
 if (isConditionTrue_0) {
@@ -2881,7 +2881,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.areSceneAssetsLoaded(runtimeScene, "Connect Wallet");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(96102132);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(96064316);
 }
 }
 if (isConditionTrue_0) {

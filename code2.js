@@ -173,7 +173,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(96418444);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(96380628);
 }
 }
 if (isConditionTrue_0) {
@@ -219,7 +219,7 @@ for (var i = 0, k = 0, l = gdjs.LoadingCode.GDLoadingTextObjects1.length;i<l;++i
 gdjs.LoadingCode.GDLoadingTextObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(96422116);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(96384300);
 }
 }
 if (isConditionTrue_0) {
@@ -231,7 +231,7 @@ gdjs.LoadingCode.eventsList2(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.LoadingCode.asyncCallback96428964 = function (runtimeScene, asyncObjectsList) {
+};gdjs.LoadingCode.asyncCallback96391148 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.LoadingCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, runtimeScene.getGame().getVariables().getFromIndex(26).getAsString(), false);
 }gdjs.LoadingCode.localVariables.length = 0;
@@ -245,7 +245,7 @@ gdjs.LoadingCode.eventsList4 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.LoadingCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.LoadingCode.asyncCallback96428964(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.LoadingCode.asyncCallback96391148(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -275,7 +275,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.areSceneAssetsLoaded(runtimeScene, runtimeScene.getGame().getVariables().getFromIndex(26).getAsString());
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(96426164);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(96388348);
 }
 }
 if (isConditionTrue_0) {

@@ -121,7 +121,7 @@ gdjs.IntroCode.GDWindObjects2= [];
 gdjs.IntroCode.GDWindObjects3= [];
 
 
-gdjs.IntroCode.asyncCallback106918180 = function (runtimeScene, asyncObjectsList) {
+gdjs.IntroCode.asyncCallback106874244 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.IntroCode.localVariables);
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "1pressstart.wav", 3, false, 100, 1);
 }gdjs.IntroCode.localVariables.length = 0;
@@ -136,14 +136,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.IntroCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3.5), (runtimeScene) => (gdjs.IntroCode.asyncCallback106918180(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3.5), (runtimeScene) => (gdjs.IntroCode.asyncCallback106874244(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.IntroCode.asyncCallback106921580 = function (runtimeScene, asyncObjectsList) {
+};gdjs.IntroCode.asyncCallback106877644 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.IntroCode.localVariables);
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "1WelcometoSS.wav", 2, false, 100, 1);
 }
@@ -160,14 +160,14 @@ gdjs.IntroCode.eventsList1 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.IntroCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.IntroCode.asyncCallback106921580(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.IntroCode.asyncCallback106877644(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.IntroCode.asyncCallback106916204 = function (runtimeScene, asyncObjectsList) {
+};gdjs.IntroCode.asyncCallback106872268 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.IntroCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Character Selection", false);
 }{gdjs.evtTools.sound.playSound(runtimeScene, "notification-sound-269266.mp3", false, 100, 1);
@@ -182,7 +182,7 @@ gdjs.IntroCode.eventsList2 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.IntroCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.IntroCode.asyncCallback106916204(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.IntroCode.asyncCallback106872268(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -211,7 +211,7 @@ gdjs.IntroCode.eventsList2(runtimeScene);} //End of subevents
 
 
 };gdjs.IntroCode.mapOfGDgdjs_9546IntroCode_9546GDLogoObjects1Objects = Hashtable.newFrom({"Logo": gdjs.IntroCode.GDLogoObjects1});
-gdjs.IntroCode.asyncCallback106933484 = function (runtimeScene, asyncObjectsList) {
+gdjs.IntroCode.asyncCallback106889548 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.IntroCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Character Selection", false);
 }gdjs.IntroCode.localVariables.length = 0;
@@ -225,7 +225,7 @@ gdjs.IntroCode.eventsList4 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.IntroCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.IntroCode.asyncCallback106933484(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.IntroCode.asyncCallback106889548(runtimeScene, asyncObjectsList)));
 }
 }
 

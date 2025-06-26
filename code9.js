@@ -411,7 +411,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.CharacterSelectionSECU2_33Code.userFunc0x114cc80 = function GDJSInlineCode(runtimeScene) {
+};gdjs.CharacterSelectionSECU2_33Code.userFunc0x2957e98 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 if (window.ethereum) {
     window.ethereum.on("accountsChanged", function(accounts) {
@@ -431,7 +431,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList2 = function(runtimeScene) {
 {
 
 
-gdjs.CharacterSelectionSECU2_33Code.userFunc0x114cc80(runtimeScene);
+gdjs.CharacterSelectionSECU2_33Code.userFunc0x2957e98(runtimeScene);
 
 }
 
@@ -468,7 +468,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.05
 }
 
 
-};gdjs.CharacterSelectionSECU2_33Code.userFunc0x1273750 = function GDJSInlineCode(runtimeScene) {
+};gdjs.CharacterSelectionSECU2_33Code.userFunc0x2c3a948 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 if (window.ethereum) {
     window.ethereum.request({ method: 'wallet_revokePermissions', params: [{ eth_accounts: {} }] })
@@ -487,7 +487,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList4 = function(runtimeScene, asyncOb
 {
 
 
-gdjs.CharacterSelectionSECU2_33Code.userFunc0x1273750(runtimeScene);
+gdjs.CharacterSelectionSECU2_33Code.userFunc0x2c3a948(runtimeScene);
 
 }
 
@@ -950,7 +950,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.CharacterSelectionSECU2_33Code.userFunc0x1468a40 = function GDJSInlineCode(runtimeScene) {
+};gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bbc0f0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function(runtimeScene) {
   console.log("Starting batch NFT mint handler...");
@@ -1085,7 +1085,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList8 = function(runtimeScene) {
 {
 
 
-gdjs.CharacterSelectionSECU2_33Code.userFunc0x1468a40(runtimeScene);
+gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bbc0f0(runtimeScene);
 
 }
 
@@ -4100,7 +4100,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.CharacterSelectionSECU2_33Code.userFunc0x1262b00 = function GDJSInlineCode(runtimeScene) {
+};gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bd41b0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function(runtimeScene) {
   console.log("Starting NFT ownership check on Base blockchain...");
@@ -4243,7 +4243,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList42 = function(runtimeScene) {
 {
 
 
-gdjs.CharacterSelectionSECU2_33Code.userFunc0x1262b00(runtimeScene);
+gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bd41b0(runtimeScene);
 
 }
 
@@ -4258,7 +4258,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.CharacterSelectionSECU2_33Code.userFunc0x1262f10 = function GDJSInlineCode(runtimeScene) {
+};gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bd45c0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function(runtimeScene) {
   console.log("Starting NFT ownership check on Base blockchain...");
@@ -4401,7 +4401,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList43 = function(runtimeScene) {
 {
 
 
-gdjs.CharacterSelectionSECU2_33Code.userFunc0x1262f10(runtimeScene);
+gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bd45c0(runtimeScene);
 
 }
 
@@ -4416,7 +4416,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.CharacterSelectionSECU2_33Code.userFunc0x10d2110 = function GDJSInlineCode(runtimeScene) {
+};gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bd49e0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function(runtimeScene) {
   console.log("Starting NFT ownership check on Base blockchain...");
@@ -4559,7 +4559,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList44 = function(runtimeScene) {
 {
 
 
-gdjs.CharacterSelectionSECU2_33Code.userFunc0x10d2110(runtimeScene);
+gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bd49e0(runtimeScene);
 
 }
 
@@ -4574,7 +4574,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.CharacterSelectionSECU2_33Code.userFunc0x1152ad8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bd4dc8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function(runtimeScene) {
   console.log("Starting NFT ownership check on Base blockchain...");
@@ -4717,7 +4717,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList45 = function(runtimeScene) {
 {
 
 
-gdjs.CharacterSelectionSECU2_33Code.userFunc0x1152ad8(runtimeScene);
+gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bd4dc8(runtimeScene);
 
 }
 
@@ -4732,7 +4732,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.CharacterSelectionSECU2_33Code.userFunc0x12557c8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bd51f0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function(runtimeScene) {
   console.log("Starting NFT ownership check on Base blockchain...");
@@ -4875,7 +4875,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList46 = function(runtimeScene) {
 {
 
 
-gdjs.CharacterSelectionSECU2_33Code.userFunc0x12557c8(runtimeScene);
+gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bd51f0(runtimeScene);
 
 }
 
@@ -4890,7 +4890,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.CharacterSelectionSECU2_33Code.userFunc0x1255b48 = function GDJSInlineCode(runtimeScene) {
+};gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bd55d8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function(runtimeScene) {
   console.log("Starting NFT ownership check on Base blockchain...");
@@ -5033,7 +5033,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList47 = function(runtimeScene) {
 {
 
 
-gdjs.CharacterSelectionSECU2_33Code.userFunc0x1255b48(runtimeScene);
+gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bd55d8(runtimeScene);
 
 }
 
@@ -5048,7 +5048,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.CharacterSelectionSECU2_33Code.userFunc0x1244ce8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bd59c0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function(runtimeScene) {
   console.log("Starting NFT ownership check on Base blockchain...");
@@ -5191,7 +5191,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList48 = function(runtimeScene) {
 {
 
 
-gdjs.CharacterSelectionSECU2_33Code.userFunc0x1244ce8(runtimeScene);
+gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bd59c0(runtimeScene);
 
 }
 
@@ -5206,7 +5206,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.CharacterSelectionSECU2_33Code.userFunc0x1185910 = function GDJSInlineCode(runtimeScene) {
+};gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bd5da8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function(runtimeScene) {
   console.log("Starting NFT ownership check on Base blockchain...");
@@ -5349,7 +5349,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList49 = function(runtimeScene) {
 {
 
 
-gdjs.CharacterSelectionSECU2_33Code.userFunc0x1185910(runtimeScene);
+gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bd5da8(runtimeScene);
 
 }
 
@@ -5364,7 +5364,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.CharacterSelectionSECU2_33Code.userFunc0x1185d68 = function GDJSInlineCode(runtimeScene) {
+};gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bd6108 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function(runtimeScene) {
   console.log("Starting NFT ownership check on Base blockchain...");
@@ -5507,7 +5507,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList50 = function(runtimeScene) {
 {
 
 
-gdjs.CharacterSelectionSECU2_33Code.userFunc0x1185d68(runtimeScene);
+gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bd6108(runtimeScene);
 
 }
 
@@ -5522,7 +5522,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.CharacterSelectionSECU2_33Code.userFunc0x1183c40 = function GDJSInlineCode(runtimeScene) {
+};gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bd64e0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function(runtimeScene) {
   console.log("Starting NFT ownership check on Base blockchain...");
@@ -5665,7 +5665,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList51 = function(runtimeScene) {
 {
 
 
-gdjs.CharacterSelectionSECU2_33Code.userFunc0x1183c40(runtimeScene);
+gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bd64e0(runtimeScene);
 
 }
 
@@ -5680,7 +5680,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.CharacterSelectionSECU2_33Code.userFunc0x1184028 = function GDJSInlineCode(runtimeScene) {
+};gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bd68c8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function(runtimeScene) {
   console.log("Starting NFT ownership check on Base blockchain...");
@@ -5823,7 +5823,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList52 = function(runtimeScene) {
 {
 
 
-gdjs.CharacterSelectionSECU2_33Code.userFunc0x1184028(runtimeScene);
+gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bd68c8(runtimeScene);
 
 }
 
@@ -5838,7 +5838,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.CharacterSelectionSECU2_33Code.userFunc0x118d3a0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bd6cb0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function(runtimeScene) {
   console.log("Starting NFT ownership check on Base blockchain...");
@@ -5981,7 +5981,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList53 = function(runtimeScene) {
 {
 
 
-gdjs.CharacterSelectionSECU2_33Code.userFunc0x118d3a0(runtimeScene);
+gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bd6cb0(runtimeScene);
 
 }
 
@@ -6345,7 +6345,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList55(runtimeScene);} //End of subeve
 }
 
 
-};gdjs.CharacterSelectionSECU2_33Code.userFunc0x12a8510 = function GDJSInlineCode(runtimeScene) {
+};gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bd8388 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function(runtimeScene) {
   console.log("Starting NFT ownership check on Base blockchain...");
@@ -6488,7 +6488,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList57 = function(runtimeScene) {
 {
 
 
-gdjs.CharacterSelectionSECU2_33Code.userFunc0x12a8510(runtimeScene);
+gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bd8388(runtimeScene);
 
 }
 
@@ -6582,7 +6582,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList58(runtimeScene);} //End of subeve
 }
 
 
-};gdjs.CharacterSelectionSECU2_33Code.userFunc0x12535c8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bd91a8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function(runtimeScene) {
   console.log("Starting NFT ownership check on Base blockchain...");
@@ -6725,7 +6725,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList60 = function(runtimeScene) {
 {
 
 
-gdjs.CharacterSelectionSECU2_33Code.userFunc0x12535c8(runtimeScene);
+gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bd91a8(runtimeScene);
 
 }
 
@@ -6819,7 +6819,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList61(runtimeScene);} //End of subeve
 }
 
 
-};gdjs.CharacterSelectionSECU2_33Code.userFunc0x1201050 = function GDJSInlineCode(runtimeScene) {
+};gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bd9fd0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function(runtimeScene) {
   console.log("Starting NFT ownership check on Base blockchain...");
@@ -6962,7 +6962,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList63 = function(runtimeScene) {
 {
 
 
-gdjs.CharacterSelectionSECU2_33Code.userFunc0x1201050(runtimeScene);
+gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bd9fd0(runtimeScene);
 
 }
 
@@ -7056,7 +7056,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList64(runtimeScene);} //End of subeve
 }
 
 
-};gdjs.CharacterSelectionSECU2_33Code.userFunc0x1159620 = function GDJSInlineCode(runtimeScene) {
+};gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bdade8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function(runtimeScene) {
   console.log("Starting NFT ownership check on Base blockchain...");
@@ -7199,7 +7199,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList66 = function(runtimeScene) {
 {
 
 
-gdjs.CharacterSelectionSECU2_33Code.userFunc0x1159620(runtimeScene);
+gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bdade8(runtimeScene);
 
 }
 
@@ -7293,7 +7293,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList67(runtimeScene);} //End of subeve
 }
 
 
-};gdjs.CharacterSelectionSECU2_33Code.userFunc0x115a450 = function GDJSInlineCode(runtimeScene) {
+};gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bdbc18 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function(runtimeScene) {
   console.log("Starting NFT ownership check on Base blockchain...");
@@ -7436,7 +7436,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList69 = function(runtimeScene) {
 {
 
 
-gdjs.CharacterSelectionSECU2_33Code.userFunc0x115a450(runtimeScene);
+gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bdbc18(runtimeScene);
 
 }
 
@@ -7530,7 +7530,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList70(runtimeScene);} //End of subeve
 }
 
 
-};gdjs.CharacterSelectionSECU2_33Code.userFunc0x11ca040 = function GDJSInlineCode(runtimeScene) {
+};gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bdca30 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function(runtimeScene) {
   console.log("Starting NFT ownership check on Base blockchain...");
@@ -7673,7 +7673,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList72 = function(runtimeScene) {
 {
 
 
-gdjs.CharacterSelectionSECU2_33Code.userFunc0x11ca040(runtimeScene);
+gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bdca30(runtimeScene);
 
 }
 
@@ -7767,7 +7767,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList73(runtimeScene);} //End of subeve
 }
 
 
-};gdjs.CharacterSelectionSECU2_33Code.userFunc0x11693f8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bdd848 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function(runtimeScene) {
   console.log("Starting NFT ownership check on Base blockchain...");
@@ -7910,7 +7910,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList75 = function(runtimeScene) {
 {
 
 
-gdjs.CharacterSelectionSECU2_33Code.userFunc0x11693f8(runtimeScene);
+gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bdd848(runtimeScene);
 
 }
 
@@ -8004,7 +8004,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList76(runtimeScene);} //End of subeve
 }
 
 
-};gdjs.CharacterSelectionSECU2_33Code.userFunc0x116a210 = function GDJSInlineCode(runtimeScene) {
+};gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bde660 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function(runtimeScene) {
   console.log("Starting NFT ownership check on Base blockchain...");
@@ -8147,7 +8147,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList78 = function(runtimeScene) {
 {
 
 
-gdjs.CharacterSelectionSECU2_33Code.userFunc0x116a210(runtimeScene);
+gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bde660(runtimeScene);
 
 }
 
@@ -8241,7 +8241,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList79(runtimeScene);} //End of subeve
 }
 
 
-};gdjs.CharacterSelectionSECU2_33Code.userFunc0x1167208 = function GDJSInlineCode(runtimeScene) {
+};gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bdf4b8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function(runtimeScene) {
   console.log("Starting NFT ownership check on Base blockchain...");
@@ -8384,7 +8384,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList81 = function(runtimeScene) {
 {
 
 
-gdjs.CharacterSelectionSECU2_33Code.userFunc0x1167208(runtimeScene);
+gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bdf4b8(runtimeScene);
 
 }
 
@@ -8478,7 +8478,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList82(runtimeScene);} //End of subeve
 }
 
 
-};gdjs.CharacterSelectionSECU2_33Code.userFunc0x116bfe0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.CharacterSelectionSECU2_33Code.userFunc0x2be02d0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function(runtimeScene) {
   console.log("Starting NFT ownership check on Base blockchain...");
@@ -8621,7 +8621,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList84 = function(runtimeScene) {
 {
 
 
-gdjs.CharacterSelectionSECU2_33Code.userFunc0x116bfe0(runtimeScene);
+gdjs.CharacterSelectionSECU2_33Code.userFunc0x2be02d0(runtimeScene);
 
 }
 
@@ -8715,7 +8715,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList85(runtimeScene);} //End of subeve
 }
 
 
-};gdjs.CharacterSelectionSECU2_33Code.userFunc0x116cdf8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.CharacterSelectionSECU2_33Code.userFunc0x2be10e8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function(runtimeScene) {
   console.log("Starting NFT ownership check on Base blockchain...");
@@ -8858,7 +8858,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList87 = function(runtimeScene) {
 {
 
 
-gdjs.CharacterSelectionSECU2_33Code.userFunc0x116cdf8(runtimeScene);
+gdjs.CharacterSelectionSECU2_33Code.userFunc0x2be10e8(runtimeScene);
 
 }
 
@@ -8952,7 +8952,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList88(runtimeScene);} //End of subeve
 }
 
 
-};gdjs.CharacterSelectionSECU2_33Code.userFunc0x116f1c0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.CharacterSelectionSECU2_33Code.userFunc0x2be1f00 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function(runtimeScene) {
   console.log("Starting NFT ownership check on Base blockchain...");
@@ -9095,7 +9095,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList90 = function(runtimeScene) {
 {
 
 
-gdjs.CharacterSelectionSECU2_33Code.userFunc0x116f1c0(runtimeScene);
+gdjs.CharacterSelectionSECU2_33Code.userFunc0x2be1f00(runtimeScene);
 
 }
 
@@ -9292,7 +9292,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.CharacterSelectionSECU2_33Code.userFunc0x1161ee0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.CharacterSelectionSECU2_33Code.userFunc0x2be4718 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function(runtimeScene) {
   console.log("Starting NFT mint handler...");
@@ -9406,7 +9406,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList94 = function(runtimeScene) {
 {
 
 
-gdjs.CharacterSelectionSECU2_33Code.userFunc0x1161ee0(runtimeScene);
+gdjs.CharacterSelectionSECU2_33Code.userFunc0x2be4718(runtimeScene);
 
 }
 
@@ -9998,7 +9998,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList98(runtimeScene);} //End of subeve
 }
 
 
-};gdjs.CharacterSelectionSECU2_33Code.userFunc0x11c2370 = function GDJSInlineCode(runtimeScene) {
+};gdjs.CharacterSelectionSECU2_33Code.userFunc0x2be9ce8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function(runtimeScene) {
   console.log("Starting NFT mint handler...");
@@ -10112,7 +10112,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList100 = function(runtimeScene) {
 {
 
 
-gdjs.CharacterSelectionSECU2_33Code.userFunc0x11c2370(runtimeScene);
+gdjs.CharacterSelectionSECU2_33Code.userFunc0x2be9ce8(runtimeScene);
 
 }
 
@@ -10704,7 +10704,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList104(runtimeScene);} //End of subev
 }
 
 
-};gdjs.CharacterSelectionSECU2_33Code.userFunc0x11b8b20 = function GDJSInlineCode(runtimeScene) {
+};gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bef2b8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function(runtimeScene) {
   console.log("Starting NFT mint handler...");
@@ -10818,7 +10818,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList106 = function(runtimeScene) {
 {
 
 
-gdjs.CharacterSelectionSECU2_33Code.userFunc0x11b8b20(runtimeScene);
+gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bef2b8(runtimeScene);
 
 }
 
@@ -11410,7 +11410,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList110(runtimeScene);} //End of subev
 }
 
 
-};gdjs.CharacterSelectionSECU2_33Code.userFunc0x1275700 = function GDJSInlineCode(runtimeScene) {
+};gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bf4848 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function(runtimeScene) {
   console.log("Starting NFT mint handler...");
@@ -11524,7 +11524,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList112 = function(runtimeScene) {
 {
 
 
-gdjs.CharacterSelectionSECU2_33Code.userFunc0x1275700(runtimeScene);
+gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bf4848(runtimeScene);
 
 }
 
@@ -12116,7 +12116,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList116(runtimeScene);} //End of subev
 }
 
 
-};gdjs.CharacterSelectionSECU2_33Code.userFunc0x1150c20 = function GDJSInlineCode(runtimeScene) {
+};gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bf9c28 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function(runtimeScene) {
   console.log("Starting NFT mint handler...");
@@ -12230,7 +12230,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList118 = function(runtimeScene) {
 {
 
 
-gdjs.CharacterSelectionSECU2_33Code.userFunc0x1150c20(runtimeScene);
+gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bf9c28(runtimeScene);
 
 }
 
@@ -12822,7 +12822,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList122(runtimeScene);} //End of subev
 }
 
 
-};gdjs.CharacterSelectionSECU2_33Code.userFunc0x1317498 = function GDJSInlineCode(runtimeScene) {
+};gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bff0f8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function(runtimeScene) {
   console.log("Starting NFT mint handler...");
@@ -12936,7 +12936,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList124 = function(runtimeScene) {
 {
 
 
-gdjs.CharacterSelectionSECU2_33Code.userFunc0x1317498(runtimeScene);
+gdjs.CharacterSelectionSECU2_33Code.userFunc0x2bff0f8(runtimeScene);
 
 }
 
@@ -13528,7 +13528,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList128(runtimeScene);} //End of subev
 }
 
 
-};gdjs.CharacterSelectionSECU2_33Code.userFunc0x11b0060 = function GDJSInlineCode(runtimeScene) {
+};gdjs.CharacterSelectionSECU2_33Code.userFunc0x2c04658 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function(runtimeScene) {
   console.log("Starting NFT mint handler...");
@@ -13642,7 +13642,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList130 = function(runtimeScene) {
 {
 
 
-gdjs.CharacterSelectionSECU2_33Code.userFunc0x11b0060(runtimeScene);
+gdjs.CharacterSelectionSECU2_33Code.userFunc0x2c04658(runtimeScene);
 
 }
 
@@ -14234,7 +14234,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList134(runtimeScene);} //End of subev
 }
 
 
-};gdjs.CharacterSelectionSECU2_33Code.userFunc0x11b3318 = function GDJSInlineCode(runtimeScene) {
+};gdjs.CharacterSelectionSECU2_33Code.userFunc0x2c09b80 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function(runtimeScene) {
   console.log("Starting NFT mint handler...");
@@ -14348,7 +14348,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList136 = function(runtimeScene) {
 {
 
 
-gdjs.CharacterSelectionSECU2_33Code.userFunc0x11b3318(runtimeScene);
+gdjs.CharacterSelectionSECU2_33Code.userFunc0x2c09b80(runtimeScene);
 
 }
 
@@ -14940,7 +14940,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList140(runtimeScene);} //End of subev
 }
 
 
-};gdjs.CharacterSelectionSECU2_33Code.userFunc0x11a20d8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.CharacterSelectionSECU2_33Code.userFunc0x2c0f140 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function(runtimeScene) {
   console.log("Starting NFT mint handler...");
@@ -15054,7 +15054,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList142 = function(runtimeScene) {
 {
 
 
-gdjs.CharacterSelectionSECU2_33Code.userFunc0x11a20d8(runtimeScene);
+gdjs.CharacterSelectionSECU2_33Code.userFunc0x2c0f140(runtimeScene);
 
 }
 
@@ -15646,7 +15646,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList146(runtimeScene);} //End of subev
 }
 
 
-};gdjs.CharacterSelectionSECU2_33Code.userFunc0x1204898 = function GDJSInlineCode(runtimeScene) {
+};gdjs.CharacterSelectionSECU2_33Code.userFunc0x2c146a0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function(runtimeScene) {
   console.log("Starting NFT mint handler...");
@@ -15760,7 +15760,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList148 = function(runtimeScene) {
 {
 
 
-gdjs.CharacterSelectionSECU2_33Code.userFunc0x1204898(runtimeScene);
+gdjs.CharacterSelectionSECU2_33Code.userFunc0x2c146a0(runtimeScene);
 
 }
 
@@ -16352,7 +16352,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList152(runtimeScene);} //End of subev
 }
 
 
-};gdjs.CharacterSelectionSECU2_33Code.userFunc0x11abb80 = function GDJSInlineCode(runtimeScene) {
+};gdjs.CharacterSelectionSECU2_33Code.userFunc0x2c19b28 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function(runtimeScene) {
   console.log("Starting NFT mint handler...");
@@ -16466,7 +16466,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList154 = function(runtimeScene) {
 {
 
 
-gdjs.CharacterSelectionSECU2_33Code.userFunc0x11abb80(runtimeScene);
+gdjs.CharacterSelectionSECU2_33Code.userFunc0x2c19b28(runtimeScene);
 
 }
 
@@ -17058,7 +17058,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList158(runtimeScene);} //End of subev
 }
 
 
-};gdjs.CharacterSelectionSECU2_33Code.userFunc0x11d6650 = function GDJSInlineCode(runtimeScene) {
+};gdjs.CharacterSelectionSECU2_33Code.userFunc0x2c1f028 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 (function(runtimeScene) {
   console.log("Starting NFT mint handler...");
@@ -17172,7 +17172,7 @@ gdjs.CharacterSelectionSECU2_33Code.eventsList160 = function(runtimeScene) {
 {
 
 
-gdjs.CharacterSelectionSECU2_33Code.userFunc0x11d6650(runtimeScene);
+gdjs.CharacterSelectionSECU2_33Code.userFunc0x2c1f028(runtimeScene);
 
 }
 

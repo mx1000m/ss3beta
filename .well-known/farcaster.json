@@ -1,36 +1,3 @@
 {
-  "frame": {
-    "name": "Satoshi's Secret",
-    "version": "1",
-    "iconUrl": "https://satoshissecret.com/icon.png",
-    "homeUrl": "https://satoshissecret.com",
-    "imageUrl": "https://satoshissecret.com/image.png",
-    "splashImageUrl": "https://satoshissecret.com/splash.png",
-    "splashBackgroundColor": "#000000",
-    "webhookUrl": "https://satoshissecret.com/api/webhook",
-    "subtitle": "Platformer meets riddles",
-    "description": "Satoshi's Secret is a riddle‑platformer adventure. Decode clues, navigate hidden realms, and discover the lost key to a digital grail.",
-    "screenshotUrls": [
-      "https://satoshissecret.com/screenshot1.png",
-      "https://satoshissecret.com/screenshot2.png",
-      "https://satoshissecret.com/screenshot3.png"
-    ],
-    "primaryCategory": "games",
-    "tags": [
-      "riddle",
-      "platformer",
-      "puzzle",
-      "satoshi",
-      "adventure"
-    ],
-    "heroImageUrl": "https://satoshissecret.com/hero.png",
-    "ogTitle": "Satoshi's Secret",
-    "ogDescription": "Solve riddles and unlock the digital grail in this platformer game.",
-    "ogImageUrl": "https://satoshissecret.com/hero.png"
-  },
-  "accountAssociation": {
-    "header": "eyJmaWQiOjMyMzA3NCwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDY5MTY3OTBDOWMwYjUxNDEyRGQxNDZhQzI4OWMwOGI2ZTc1NjZDNjMifQ",
-    "payload": "eyJkb21haW4iOiJzYXRvc2hpc3NlY3JldC5jb20ifQ",
-    "signature": "MHhhMWYxNjY2YjQ4OTZkM2JiZDlkN2QxNGVhNGVlMTJjYWQ4Y2UyYWE3OTI0NTJhYWI1MGYyYjc4YjU3YjcwMDZiNmI2OWVlMWVkMWZjYzcxYzAyZWExNGJiOTY4NzQzMjA3OGFhNTg2M2Q1ZGE5MWY2NThmMTZhOTAwNTg0NmE0YjFi"
-  }
+  "redirect": "https://api.farcaster.xyz/miniapps/hosted-manifest/0197b205-190e-efaa-9da1-37eb24b51ded"
 }

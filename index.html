@@ -2,6 +2,9 @@
 <html>
 <head>
     <meta charset="UTF-8"/>
+	
+	<script src="https://unpkg.com/@farcaster/miniapp-sdk"></script>
+	
     <link rel="manifest" href="manifest.webmanifest">
 
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -224,24 +227,35 @@
 <body>
 
     
-	<script>
+<script>
+(function() {
+    //Initialization
+    var game = new gdjs.RuntimeGame(gdjs.projectData, {});
 
-    (function() {
-        //Initialization
-        var game = new gdjs.RuntimeGame(gdjs.projectData, {});
+    //Create a renderer
+    game.getRenderer().createStandardCanvas(document.body);
 
-        //Create a renderer
-        game.getRenderer().createStandardCanvas(document.body);
+    //Bind keyboards/mouse/touch events
+    game.getRenderer().bindStandardEvents(game.getInputManager(), window, document);
 
-        //Bind keyboards/mouse/touch events
-        game.getRenderer().bindStandardEvents(game.getInputManager(), window, document);
+    //Load all assets and start the game
+    game.loadAllAssets(function() {
+        game.startGameLoop();
+        
+        // After game is fully initialized and started, notify Farcaster
+        // Wait a brief moment to ensure everything is rendered
+        setTimeout(function() {
+            if (window.MiniAppSDK) {
+                window.MiniAppSDK.ready();
+                console.log('Farcaster Mini App SDK ready() called');
+            } else {
+                console.warn('Farcaster Mini App SDK not available');
+            }
+        }, 100);
+    });
+})();
+</script>
 
-        //Load all assets and start the game
-        game.loadAllAssets(function() {
-            game.startGameLoop();
-        });
-    })();
-
-	</script>
+	
 </body>
 </html>

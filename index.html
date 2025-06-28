@@ -227,13 +227,31 @@
     
 
 
+<!-- 🟢 Keep your working GDevelop initialization script -->
+<script>
+(function() {
+    //Initialization
+    var game = new gdjs.RuntimeGame(gdjs.projectData, {});
+
+    //Create a renderer
+    game.getRenderer().createStandardCanvas(document.body);
+
+    //Bind keyboards/mouse/touch events
+    game.getRenderer().bindStandardEvents(game.getInputManager(), window, document);
+
+    //Load all assets and start the game
+    game.loadAllAssets(function() {
+        game.startGameLoop();
+    });
+})();
+</script>
+
+<!-- 🟣 ADD Farcaster Frame SDK on top of it -->
 <script type="module">
   import { sdk } from 'https://esm.sh/@farcaster/frame-sdk'
 
   window.addEventListener('DOMContentLoaded', async () => {
     console.log('🎮 Game started');
-    // Load assets and start the game...
-    // At this point, your GDevelop game is fully rendered.
 
     try {
       await sdk.actions.ready()
@@ -241,8 +259,9 @@
     } catch (e) {
       console.error('❌ Frame SDK ready() failed', e);
     }
-  })
+  });
 </script>
+
 
 
 

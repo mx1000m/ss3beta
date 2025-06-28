@@ -3,9 +3,6 @@
 <head>
     <meta charset="UTF-8"/>
 	
-	<script src="https://unpkg.com/@farcaster/miniapp-sdk"></script>
-	<script src="https://cdn.jsdelivr.net/npm/@farcaster/miniapp-sdk@0.1.0/dist/index.js"></script>
-	
     <link rel="manifest" href="manifest.webmanifest">
 
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -232,6 +229,36 @@
 
 <script>
 (function() {
+    console.log('Starting game initialization...');
+    
+    // Load Farcaster SDK dynamically if not already loaded
+    function loadFarcasterSDK() {
+        return new Promise((resolve) => {
+            if (window.MiniAppSDK) {
+                console.log('MiniAppSDK already available');
+                resolve();
+                return;
+            }
+            
+            console.log('Loading Farcaster SDK...');
+            const script = document.createElement('script');
+            script.src = 'https://unpkg.com/@farcaster/miniapp-sdk';
+            script.onload = () => {
+                console.log('Farcaster SDK loaded');
+                resolve();
+            };
+            script.onerror = () => {
+                console.warn('Failed to load Farcaster SDK');
+                resolve(); // Continue anyway
+            };
+            document.head.appendChild(script);
+        });
+    }
+    
+    // Check if we're in Farcaster environment
+    console.log('User Agent:', navigator.userAgent);
+    console.log('MiniAppSDK available:', !!window.MiniAppSDK);
+    
     //Initialization
     var game = new gdjs.RuntimeGame(gdjs.projectData, {});
 
@@ -243,18 +270,48 @@
 
     //Load all assets and start the game
     game.loadAllAssets(function() {
+        console.log('Assets loaded, starting game loop...');
         game.startGameLoop();
+        console.log('Game loop started');
         
-        // After game is fully initialized and started, notify Farcaster
-        // Wait a brief moment to ensure everything is rendered
-        setTimeout(function() {
-            if (window.MiniAppSDK) {
-                window.MiniAppSDK.ready();
-                console.log('Farcaster Mini App SDK ready() called');
-            } else {
-                console.warn('Farcaster Mini App SDK not available');
+        // Load SDK and then call ready
+        loadFarcasterSDK().then(() => {
+            // Try multiple approaches to ensure ready() is called
+            function callReady() {
+                console.log('Attempting to call MiniAppSDK.ready()...');
+                console.log('MiniAppSDK object:', window.MiniAppSDK);
+                
+                if (window.MiniAppSDK && typeof window.MiniAppSDK.ready === 'function') {
+                    try {
+                        window.MiniAppSDK.ready();
+                        console.log('✅ MiniAppSDK.ready() called successfully');
+                        return true;
+                    } catch (error) {
+                        console.error('❌ Error calling MiniAppSDK.ready():', error);
+                    }
+                } else {
+                    console.warn('⚠️ MiniAppSDK or ready() method not available');
+                    console.log('Available MiniAppSDK methods:', window.MiniAppSDK ? Object.keys(window.MiniAppSDK) : 'none');
+                    
+                    // Try alternative approach - post message to parent
+                    if (window.parent !== window) {
+                        console.log('Trying alternative ready signal...');
+                        window.parent.postMessage({ type: 'frame_ready' }, '*');
+                    }
+                }
+                return false;
             }
-        }, 100);
+            
+            // Try immediately
+            if (!callReady()) {
+                // Try after delays if first attempt failed
+                setTimeout(() => {
+                    if (!callReady()) {
+                        setTimeout(callReady, 1000);
+                    }
+                }, 100);
+            }
+        });
     });
 })();
 </script>

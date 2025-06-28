@@ -227,94 +227,23 @@
     
 
 
-<script>
-(function() {
-    console.log('Starting game initialization...');
-    
-    // Load Farcaster SDK dynamically if not already loaded
-    function loadFarcasterSDK() {
-        return new Promise((resolve) => {
-            if (window.MiniAppSDK) {
-                console.log('MiniAppSDK already available');
-                resolve();
-                return;
-            }
-            
-            console.log('Loading Farcaster SDK...');
-            const script = document.createElement('script');
-            script.src = 'https://unpkg.com/@farcaster/miniapp-sdk';
-            script.onload = () => {
-                console.log('Farcaster SDK loaded');
-                resolve();
-            };
-            script.onerror = () => {
-                console.warn('Failed to load Farcaster SDK');
-                resolve(); // Continue anyway
-            };
-            document.head.appendChild(script);
-        });
+<script type="module">
+  import { sdk } from 'https://esm.sh/@farcaster/frame-sdk'
+
+  window.addEventListener('DOMContentLoaded', async () => {
+    console.log('🎮 Game started');
+    // Load assets and start the game...
+    // At this point, your GDevelop game is fully rendered.
+
+    try {
+      await sdk.actions.ready()
+      console.log('✅ Frame SDK ready() called—splash hidden');
+    } catch (e) {
+      console.error('❌ Frame SDK ready() failed', e);
     }
-    
-    // Check if we're in Farcaster environment
-    console.log('User Agent:', navigator.userAgent);
-    console.log('MiniAppSDK available:', !!window.MiniAppSDK);
-    
-    //Initialization
-    var game = new gdjs.RuntimeGame(gdjs.projectData, {});
-
-    //Create a renderer
-    game.getRenderer().createStandardCanvas(document.body);
-
-    //Bind keyboards/mouse/touch events
-    game.getRenderer().bindStandardEvents(game.getInputManager(), window, document);
-
-    //Load all assets and start the game
-    game.loadAllAssets(function() {
-        console.log('Assets loaded, starting game loop...');
-        game.startGameLoop();
-        console.log('Game loop started');
-        
-        // Load SDK and then call ready
-        loadFarcasterSDK().then(() => {
-            // Try multiple approaches to ensure ready() is called
-            function callReady() {
-                console.log('Attempting to call MiniAppSDK.ready()...');
-                console.log('MiniAppSDK object:', window.MiniAppSDK);
-                
-                if (window.MiniAppSDK && typeof window.MiniAppSDK.ready === 'function') {
-                    try {
-                        window.MiniAppSDK.ready();
-                        console.log('✅ MiniAppSDK.ready() called successfully');
-                        return true;
-                    } catch (error) {
-                        console.error('❌ Error calling MiniAppSDK.ready():', error);
-                    }
-                } else {
-                    console.warn('⚠️ MiniAppSDK or ready() method not available');
-                    console.log('Available MiniAppSDK methods:', window.MiniAppSDK ? Object.keys(window.MiniAppSDK) : 'none');
-                    
-                    // Try alternative approach - post message to parent
-                    if (window.parent !== window) {
-                        console.log('Trying alternative ready signal...');
-                        window.parent.postMessage({ type: 'frame_ready' }, '*');
-                    }
-                }
-                return false;
-            }
-            
-            // Try immediately
-            if (!callReady()) {
-                // Try after delays if first attempt failed
-                setTimeout(() => {
-                    if (!callReady()) {
-                        setTimeout(callReady, 1000);
-                    }
-                }, 100);
-            }
-        });
-    });
-})();
+  })
 </script>
+
 
 
 	
